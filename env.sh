@@ -2,15 +2,14 @@
 
 echo -e "\nLoading base env ..."
 
-# Setting the path
-export PATH=/usr/local/bin:/usr/local/sbin:$PATH
-
-# UTF-8 compliance
-export LC_CTYPE=en_US.UTF-8
-export LC_ALL=en_US.UTF-8
+# Env Vars
+source ~/dotfiles/envs/envvars.sh
 
 # Shortcuts
 source ~/dotfiles/envs/shortcuts.sh
+
+# Aliases
+source ~/dotfiles/envs/aliases.sh
 
 # Language Envs
 source ~/dotfiles/envs/python.sh
