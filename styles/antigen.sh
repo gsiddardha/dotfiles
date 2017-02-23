@@ -2,7 +2,7 @@
 
 echo -e "\tStyling provided by Antigen."
 
-source ~/dotfiles/antigen/antigen.zsh
+source ~/dotfiles/libs/antigen/antigen.zsh
 
 # Load oh-my-zsh library
 antigen use oh-my-zsh
