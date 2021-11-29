@@ -16,17 +16,10 @@ brew cask install iterm2 sourcetree slack postman sublime-text brave-browser las
 
 brew install pyenv tree aws-iam-authenticator watch terraform nvm direnv yarn buildpacks/tap/pack
 
+pyenv install 3.9.4
+pyenv global 3.9.4
 
-pyenv install 3.7.8
-
-pyenv global 3.7.8
-
-echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc
-
-$(pyenv which python3) -m pip install virtualenvwrapper
-
-echo 'export WORKON_HOME=~/.virtualenvs' >> ~/.zshrc
-echo 'mkdir -p $WORKON_HOME' >> ~/.zshrc
-echo '. ~/.pyenv/versions/3.7.8/bin/virtualenvwrapper.sh' >> ~/.zshrc
+echo 'source ~/dotfiles/zprofile.sh' >> ~/.zprofile
+echo 'source ~/dotfiles/zshrc.sh' >> ~/.zshrc
 
 echo "Done ..."

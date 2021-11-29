@@ -14,14 +14,14 @@ source ~/dotfiles/envs/aliases.sh
 
 # Language Envs
 source ~/dotfiles/envs/python.sh
-source ~/dotfiles/envs/nvm.sh
-source ~/dotfiles/envs/java.sh
+# source ~/dotfiles/envs/nvm.sh
+# source ~/dotfiles/envs/java.sh
 
 # Daabase Envs
 #source ~/dotfiles/envs/mysql.sh
-source ~/dotfiles/envs/postgres.sh
+# source ~/dotfiles/envs/postgres.sh
 
 # AWS Envs
-source ~/dotfiles/envs/aws.sh
+# source ~/dotfiles/envs/aws.sh
 
 echo "Done ..."
