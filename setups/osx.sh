@@ -14,7 +14,7 @@ brew_install_if_does_not_exist htop
 # Installing everything else
 brew install --cask iterm2 sourcetree slack postman sublime-text brave-browser lastpass onedrive microsoft-excel setapp dropbox aerial visual-studio-code lens docker postgres adoptopenjdk dbeaver-community rescuetime sunsama cloudflare-warp eqmac microsoft-word warp 
 
-brew install pyenv tree aws-iam-authenticator watch terraform nvm direnv yarn buildpacks/tap/pack
+brew install pyenv tree aws-iam-authenticator watch terraform nvm direnv yarn buildpacks/tap/pack corretto17
 
 pyenv install 3.9.4
 pyenv global 3.9.4

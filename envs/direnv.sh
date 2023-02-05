@@ -1,5 +1,5 @@
 #!/bin/zsh
   
-echo -e "\tLoading direnv ..."
+# echo -e "\tLoading direnv ..."
 
 eval "$(direnv hook zsh)"

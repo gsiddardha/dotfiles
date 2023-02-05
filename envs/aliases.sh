@@ -1,6 +1,6 @@
 #! /bin/zsh
 
-echo -e "\tRegistering aliases ..."
+echo -e "- Registering aliases"
 
 # Enable aliases to be sudo’ed
 alias sudo="sudo "

@@ -1,5 +1,4 @@
 #! /bin/zsh
 
-echo -e "\nInitialising styling ..."
+echo -e "\nInitialising styling"
 source ~/dotfiles/styles/antigen.sh
-echo "Done ..."

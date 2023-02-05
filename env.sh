@@ -1,6 +1,6 @@
 #! /bin/zsh
 
-echo -e "\nLoading base env ..."
+echo -e "\nLoading base env"
 
 # Env Vars
 source ~/dotfiles/envs/envvars.sh
@@ -14,8 +14,8 @@ source ~/dotfiles/envs/aliases.sh
 
 # Language Envs
 source ~/dotfiles/envs/python.sh
-# source ~/dotfiles/envs/nvm.sh
-# source ~/dotfiles/envs/java.sh
+source ~/dotfiles/envs/nvm.sh
+source ~/dotfiles/envs/java.sh
 
 # Daabase Envs
 #source ~/dotfiles/envs/mysql.sh
@@ -23,5 +23,3 @@ source ~/dotfiles/envs/python.sh
 
 # AWS Envs
 # source ~/dotfiles/envs/aws.sh
-
-echo "Done ..."

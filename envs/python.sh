@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-echo -e "\tLoading python environment ..."
+echo -e "- Setting up Python env"
 
 # pyenv
 eval "$(pyenv init -)"

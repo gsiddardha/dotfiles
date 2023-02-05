@@ -1,6 +1,6 @@
 #! /bin/zsh
 
-echo -e "\tStyling provided by Antigen."
+echo -e "- Using Antigen."
 
 source ~/dotfiles/libs/antigen/antigen.zsh
 

@@ -1,6 +1,6 @@
 #! /bin/zsh
 
-echo -e "\tExporting environment variables ..."
+# echo -e "\tExporting environment variables ..."
 
 # Setting the path
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH

@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-echo -e "\tLoading shortcuts ..."
+# echo -e "\tLoading shortcuts ..."
 
 # FileSearch
 function f() { find . -iname "*$1*" ${@:2} }
