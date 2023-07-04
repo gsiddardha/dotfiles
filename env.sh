@@ -16,6 +16,7 @@ source ~/dotfiles/envs/aliases.sh
 source ~/dotfiles/envs/python.sh
 source ~/dotfiles/envs/nvm.sh
 source ~/dotfiles/envs/java.sh
+source ~/dotfiles/envs/go.sh
 
 # Daabase Envs
 #source ~/dotfiles/envs/mysql.sh
