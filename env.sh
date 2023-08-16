@@ -24,3 +24,6 @@ source ~/dotfiles/envs/go.sh
 
 # AWS Envs
 # source ~/dotfiles/envs/aws.sh
+
+# Work Env
+source ~/dotfiles/envs/work.sh
